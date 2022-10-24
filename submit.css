@@ -1,0 +1,53 @@
+body{
+  padding: 30% 45%;
+  background-color: white;
+}
+button {
+  align-items:stretch;
+  background-image: linear-gradient(144deg, red, orange, pink);
+  border: 0;
+  border-radius: 10px;
+  box-shadow:0.5px 4px 8.6px rgba(227, 0, 0, 0.37),
+  8.6px 9.6px 17.9px rgba(154, 50, 50, 0.24),
+  17px 19.1px 43.9px rgba(122, 212, 27, 0.182),
+  56px 63px 80px rgba(190, 155, 17, 0.14);
+  box-sizing:content-box;
+  color: #000000;
+  display:inline-flex;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+  justify-content: center;
+  line-height: 2px;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 3px;
+  text-decoration:rgba(237, 237, 235, 0.14);
+  user-select:contain;
+  -webkit-user-select:initial;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor:pointer;
+  transition: all .5s;
+ }
+ 
+ button:active,
+ button:hover {
+  outline: 5;
+ }
+ 
+ button span {
+  background-color: rgb(251, 251, 251);
+  padding: 16px 24px;
+  border-radius: 6px;
+  width: 100%;
+  height: 100%;
+  transition: 300ms;
+ }
+ 
+ button:hover span {
+  background:fixed;
+ }
+ 
+ button:active {
+  transform: scale(1.9);
+ }
