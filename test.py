@@ -25,7 +25,6 @@ stream = p.open(
 
 print(p.get_default_input_device_info())
 
-# the AssemblyAI endpoint we're going to hit
 URL = "https://api.assemblyai.com/v2/transcripts"
  
 async def send_receive():
